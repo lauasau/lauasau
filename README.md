@@ -1,28 +1,40 @@
+<p align="center">
+<img src="REPLACE_WITH_YOUR_HEADER_IMAGE_URL" width="100%" alt="header" />
+</p>
+
 <div align="center">
 
-# Hi 👋 I'm Laura
+# Hi 👋, I'm Laura
 
 ### Crime Analyst · Criminal Justice Data Analytics
-
-**M.S. Criminal Justice Data Analytics — Marquette University**
 
 </div>
 
 ---
 
-### 🔗 Connect with Me
+### 🚀 About Me
+
+Laura here — a crime analyst with an M.S. in Criminal Justice Data Analytics from Marquette University, currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
+
+I build interactive dashboards and spatial/temporal analyses that turn raw crime and victimization data into something investigators, prosecutors, and policymakers can actually act on.
+
+My work spans child victimization trends, prosecution outcomes, and crime mapping — using tools like Power BI, Tableau, ArcGIS, and R to tell the story behind the numbers.
+
+---
+
+### 🤝 Connect
 
 <p align="left">
-<a href="#"><img src="<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="#"><img src="https://img.shields.io/badge/Portfolio-223040?style=for-the-badge&logo=googlechrome&logoColor=80D7CB" /></a>
-<a href="#"><img src="lauraasau@outlook.com" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
 
-### 🧰 Tech Stack
+### 💻 Tech Stack
 
-**Languages**
+**Programming Languages**
 <p align="left">
 <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -30,20 +42,25 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 </p>
 
-**Python & R Libraries**
+**Python Libraries**
 <p align="left">
 <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
 <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge" />
-<img src="https://img.shields.io/badge/ggplot2-276DC3?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Shiny-276DC3?style=for-the-badge" />
-<img src="https://img.shields.io/badge/dplyr-276DC3?style=for-the-badge" />
-<img src="https://img.shields.io/badge/leaflet-199900?style=for-the-badge" />
-<img src="https://img.shields.io/badge/plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
 </p>
 
-**Analytics & Visualization Software**
+**R Libraries**
+<p align="left">
+<img src="https://img.shields.io/badge/tidyr-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+<img src="https://img.shields.io/badge/dplyr-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+<img src="https://img.shields.io/badge/ggplot2-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+<img src="https://img.shields.io/badge/stats-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+<img src="https://img.shields.io/badge/shiny-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+<img src="https://img.shields.io/badge/R_Markdown-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+</p>
+
+**Software**
 <p align="left">
 <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
 <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
@@ -53,10 +70,6 @@
 <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" />
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-</p>
-
-**Criminal Justice / Field-Specific Systems**
-<p align="left">
 <img src="https://img.shields.io/badge/REDCap-223040?style=for-the-badge" />
 <img src="https://img.shields.io/badge/ProPhoenix-223040?style=for-the-badge" />
 <img src="https://img.shields.io/badge/PROTECT-223040?style=for-the-badge" />
@@ -73,27 +86,9 @@
 
 ---
 
-### 📈 GitHub Analytics
-
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=lauasau&show_icons=true&theme=dark&hide_border=true&bg_color=223040&title_color=80D7CB&icon_color=FFAB62&text_color=F7F7F7" />
-</p>
-
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=lauasau&theme=dark&hide_border=true&background=223040&stroke=80D7CB&ring=FFAB62&fire=FFAB62&currStreakLabel=80D7CB" />
-</p>
-
----
-
-### 📌 Pinned Projects
+### 📁 Pinned Projects
 
 - **WIBRS Child Victimization Data Dashboard** — Interactive Power BI dashboard analyzing statewide child victimization data (2018–2023)
 - **Child Sex Abuse Charging & Conviction Rates** — Tableau analysis of prosecution data (2019–2022)
 - **Child Abuse & Exploitation During Covid-19** — ArcGIS spatial/temporal hotspot analysis
 - **Milwaukee Police Department Crime Dashboard** — Tableau
-
----
-
-<div align="center">
-<i>"In God we trust. All others must bring data." — W. Edwards Deming</i>
-</div>
