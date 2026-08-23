@@ -13,7 +13,7 @@
 ### 🔗 Connect with Me
 
 <p align="left">
-<a href="#"><img src="https://www.linkedin.com/in/laura-s-538806236/" /></a>
+<a href="#"><img src="<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="#"><img src="https://img.shields.io/badge/Portfolio-223040?style=for-the-badge&logo=googlechrome&logoColor=80D7CB" /></a>
 <a href="#"><img src="lauraasau@outlook.com" /></a>
 </p>
