@@ -1,84 +1,61 @@
 <p align="center">
-<img src="REPLACE_WITH_YOUR_HEADER_IMAGE_URL" width="100%" alt="header" />
+  <img src="header-banner.svg" width="100%" alt="header" />
 </p>
 
-<div align="center">
-
-# Hi 👋, I'm Laura
-
-### Crime Analyst · Criminal Justice Data Analytics
-
-</div>
+<h1 align="center">Hi 👋, I'm Laura</h1>
+<h3 align="center">Crime Analyst</h3>
+<p align="center"><i>Turning data into evidence that holds up</i></p>
 
 ---
 
-### 🚀 About Me
+## 🚀 About Me
 
 Laura here — a crime analyst with an M.S. in Criminal Justice Data Analytics from Marquette University, currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
 
 I build interactive dashboards and spatial/temporal analyses that turn raw crime and victimization data into something investigators, prosecutors, and policymakers can actually act on.
 
-My work spans child victimization trends, prosecution outcomes, and crime mapping — using tools like Power BI, Tableau, ArcGIS, and R to tell the story behind the numbers.
+My work spans child victimization trends, prosecution outcomes, and crime mapping — using Power BI, Tableau, ArcGIS, and R to tell the story behind the numbers.
 
 ---
 
-### 🤝 Connect
+## 🤝 Connect
 
 <p align="left">
-<a href="#"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-223040?style=for-the-badge&logo=googlechrome&logoColor=80D7CB" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="REPLACE_WITH_YOUR_LINKEDIN_URL"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="mailto:REPLACE_WITH_YOUR_EMAIL"><img src="https://skillicons.dev/icons?i=gmail" /></a>
+  <a href="https://github.com/REPLACE_WITH_YOUR_USERNAME"><img src="https://skillicons.dev/icons?i=github" /></a>
 </p>
 
 ---
 
-### 💻 Tech Stack
+## 💻 Tech Stack
 
-**Programming Languages**
+**Languages & core tools**
 <p align="left">
-<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-</p>
-
-**Python Libraries**
-<p align="left">
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge" />
-</p>
-
-**R Libraries**
-<p align="left">
-<img src="https://img.shields.io/badge/tidyr-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-<img src="https://img.shields.io/badge/dplyr-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-<img src="https://img.shields.io/badge/ggplot2-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-<img src="https://img.shields.io/badge/stats-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-<img src="https://img.shields.io/badge/shiny-276DC3?style=for-the-badge&logo=r&logoColor=white" />
-<img src="https://img.shields.io/badge/R_Markdown-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+  <img src="https://skillicons.dev/icons?i=py,r,html" />
 </p>
 
 **Software**
+
 <p align="left">
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
-<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-<img src="https://img.shields.io/badge/SPSS-0058CC?style=for-the-badge" />
-<img src="https://img.shields.io/badge/ArcGIS-2C7AC3?style=for-the-badge&logo=esri&logoColor=white" />
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
-<img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" />
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-<img src="https://img.shields.io/badge/REDCap-223040?style=for-the-badge" />
-<img src="https://img.shields.io/badge/ProPhoenix-223040?style=for-the-badge" />
-<img src="https://img.shields.io/badge/PROTECT-223040?style=for-the-badge" />
-<img src="https://img.shields.io/badge/ICSolutions-223040?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/-Tableau-223040?style=flat-square&logo=tableau&logoColor=E97627" />
+  <img src="https://img.shields.io/badge/-Power%20BI-223040?style=flat-square&logo=powerbi&logoColor=F2C811" />
+  <img src="https://img.shields.io/badge/-Excel-223040?style=flat-square&logo=microsoftexcel&logoColor=217346" />
+  <img src="https://img.shields.io/badge/-Google%20Sheets-223040?style=flat-square&logo=googlesheets&logoColor=34A853" />
+  <img src="https://img.shields.io/badge/-Jupyter-223040?style=flat-square&logo=jupyter&logoColor=F37626" />
+  <img src="https://img.shields.io/badge/-Figma-223040?style=flat-square&logo=figma&logoColor=F24E1E" />
+  <img src="https://img.shields.io/badge/-SPSS-223040?style=flat-square" />
+  <img src="https://img.shields.io/badge/-ArcGIS-223040?style=flat-square" />
+  <img src="https://img.shields.io/badge/-SQL-223040?style=flat-square&logo=postgresql&logoColor=80D7CB" />
+  <img src="https://img.shields.io/badge/-REDCap-223040?style=flat-square" />
+  <img src="https://img.shields.io/badge/-ProPhoenix-223040?style=flat-square" />
+  <img src="https://img.shields.io/badge/-PROTECT-223040?style=flat-square" />
+  <img src="https://img.shields.io/badge/-ICSolutions-223040?style=flat-square" />
 </p>
 
 ---
 
-### 📌 Currently
+## 📌 Currently
 
 - 🔍 WITSEC Crime Analyst @ Milwaukee County District Attorney's Office — Domestic Violence Unit
 - 📊 Building interactive dashboards on crime and victimization data (Power BI, Tableau, ArcGIS)
@@ -86,7 +63,7 @@ My work spans child victimization trends, prosecution outcomes, and crime mappin
 
 ---
 
-### 📁 Pinned Projects
+## 📁 Pinned Projects
 
 - **WIBRS Child Victimization Data Dashboard** — Interactive Power BI dashboard analyzing statewide child victimization data (2018–2023)
 - **Child Sex Abuse Charging & Conviction Rates** — Tableau analysis of prosecution data (2019–2022)
