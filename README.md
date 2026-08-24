@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="header-banner.svg" width="100%" alt="header" />
+  <img src="clouds.jpg" width="100%" alt="header" />
 </p>
 
 <h1 align="center">Welcome!🤓, I'm Laura🩷</h1>
