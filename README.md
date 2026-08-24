@@ -2,7 +2,7 @@
   <img src="header-banner.svg" width="100%" alt="header" />
 </p>
 
-<h1 align="center">Hi 👋, I'm Laura</h1>
+<h1 align="center">Welcome!🤓, I'm Laura🩷</h1>
 <h3 align="center">Crime Analyst</h3>
 <p align="center"><i>Turning data into evidence that holds up</i></p>
 
@@ -20,7 +20,7 @@ My work spans child victimization trends, prosecution outcomes, and crime mappin
 
 ## 🤝 Connect
 
-<p align="left">
+<p align="center">
   <a href="REPLACE_WITH_YOUR_LINKEDIN_URL"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
   <a href="mailto:REPLACE_WITH_YOUR_EMAIL"><img src="https://skillicons.dev/icons?i=gmail" /></a>
   <a href="https://github.com/REPLACE_WITH_YOUR_USERNAME"><img src="https://skillicons.dev/icons?i=github" /></a>
@@ -31,26 +31,25 @@ My work spans child victimization trends, prosecution outcomes, and crime mappin
 ## 💻 Tech Stack
 
 **Languages & core tools**
-<p align="left">
+<p align="center">
   <img src="https://skillicons.dev/icons?i=py,r,html" />
 </p>
 
 **Software**
 
-<p align="left">
-  <img src="https://img.shields.io/badge/-Tableau-223040?style=flat-square&logo=tableau&logoColor=E97627" />
-  <img src="https://img.shields.io/badge/-Power%20BI-223040?style=flat-square&logo=powerbi&logoColor=F2C811" />
-  <img src="https://img.shields.io/badge/-Excel-223040?style=flat-square&logo=microsoftexcel&logoColor=217346" />
-  <img src="https://img.shields.io/badge/-Google%20Sheets-223040?style=flat-square&logo=googlesheets&logoColor=34A853" />
-  <img src="https://img.shields.io/badge/-Jupyter-223040?style=flat-square&logo=jupyter&logoColor=F37626" />
-  <img src="https://img.shields.io/badge/-Figma-223040?style=flat-square&logo=figma&logoColor=F24E1E" />
-  <img src="https://img.shields.io/badge/-SPSS-223040?style=flat-square" />
-  <img src="https://img.shields.io/badge/-ArcGIS-223040?style=flat-square" />
-  <img src="https://img.shields.io/badge/-SQL-223040?style=flat-square&logo=postgresql&logoColor=80D7CB" />
-  <img src="https://img.shields.io/badge/-REDCap-223040?style=flat-square" />
-  <img src="https://img.shields.io/badge/-ProPhoenix-223040?style=flat-square" />
-  <img src="https://img.shields.io/badge/-PROTECT-223040?style=flat-square" />
-  <img src="https://img.shields.io/badge/-ICSolutions-223040?style=flat-square" />
+<p align="center">
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/SPSS-0058CC?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ArcGIS-2C7AC3?style=for-the-badge&logo=esri&logoColor=white" />
+  <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/REDCap-223040?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ProPhoenix-223040?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/PROTECT-223040?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ICSolutions-223040?style=for-the-badge" />
 </p>
 
 ---
