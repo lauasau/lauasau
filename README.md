@@ -10,7 +10,7 @@
 
 ## 🚀 About Me
 
-Laura here — a crime analyst with an M.S. in Criminal Justice Data Analytics from Marquette University, currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
+Laura  — a crime analyst with an M.S. in Criminal Justice Data Analytics from Marquette University, currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
 
 I build interactive dashboards and spatial/temporal analyses that turn raw crime and victimization data into something investigators, prosecutors, and policymakers can actually act on.
 
@@ -22,8 +22,8 @@ My work spans child victimization trends, prosecution outcomes, and crime mappin
 
 <p align="center">
   <a href="REPLACE_WITH_YOUR_LINKEDIN_URL"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
-  <a href="mailto:REPLACE_WITH_YOUR_EMAIL"><img src="https://skillicons.dev/icons?i=gmail" /></a>
-  <a href="https://github.com/REPLACE_WITH_YOUR_USERNAME"><img src="https://skillicons.dev/icons?i=github" /></a>
+  <a href="lauraasau@outlook.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
+  <a href="https://github.com/lauasau"><img src="https://skillicons.dev/icons?i=github" /></a>
 </p>
 
 ---
@@ -58,13 +58,15 @@ My work spans child victimization trends, prosecution outcomes, and crime mappin
 
 - 🔍 WITSEC Crime Analyst @ Milwaukee County District Attorney's Office — Domestic Violence Unit
 - 📊 Building interactive dashboards on crime and victimization data (Power BI, Tableau, ArcGIS)
-- 🌱 Member of IACA (International Association of Crime Analysts) and WILEAN
+- 🌱 Member of IACA (International Association of Crime Analysts)
+- 🌱 Member of WILEAN (Wisconsin International Law Enforcement Analyst Network)
 
 ---
 
 ## 📁 Pinned Projects
 
+- **Milwaukee Police Department Crime Dashboard** — Tableau dashboard analyzing crime data in Milwaukee (2020-2025)
 - **WIBRS Child Victimization Data Dashboard** — Interactive Power BI dashboard analyzing statewide child victimization data (2018–2023)
 - **Child Sex Abuse Charging & Conviction Rates** — Tableau analysis of prosecution data (2019–2022)
 - **Child Abuse & Exploitation During Covid-19** — ArcGIS spatial/temporal hotspot analysis
-- **Milwaukee Police Department Crime Dashboard** — Tableau
+
