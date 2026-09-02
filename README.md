@@ -18,12 +18,20 @@ Hi, I'm Laura  — a crime analyst with an M.S. in Criminal Justice Data Analyti
 * Conducting spatial/temporal analyses using ArcGIS
 
 ---
-## 📁 Pinned Projects
+## 📌 Currently
 
-- **Milwaukee Police Department Crime Dashboard** — Tableau dashboard analyzing crime data in Milwaukee (2020-2025)
-- **WIBRS Child Victimization Data Dashboard** — Interactive Power BI dashboard analyzing statewide child victimization data (2018–2023)
-- **Child Sex Abuse Charging & Conviction Rates** — Tableau analysis of prosecution data (2019–2022)
-- **Child Abuse & Exploitation During Covid-19** — ArcGIS spatial/temporal hotspot analysis
+- 🔍 WITSEC Crime Analyst @ Milwaukee County District Attorney's Office
+- 📊 Building interactive dashboards on crime and victimization data
+- 🌱 Member of IACA (International Association of Crime Analysts)
+- 🌱 Member of WILEAN (Wisconsin International Law Enforcement Analyst Network)
+
+---
+## 📁 Projects
+
+- **Milwaukee Police Department Crime Dashboard** 
+- **WIBRS Child Victimization Data Dashboard** 
+- **Child Sex Abuse Charging & Conviction Rates** 
+- **Child Abuse & Exploitation During Covid-19** 
 
 ---
 
@@ -63,14 +71,7 @@ Hi, I'm Laura  — a crime analyst with an M.S. in Criminal Justice Data Analyti
 
 ---
 
-## 📌 Currently
 
-- 🔍 WITSEC Crime Analyst @ Milwaukee County District Attorney's Office — Domestic Violence Unit
-- 📊 Building interactive dashboards on crime and victimization data (Power BI, Tableau, ArcGIS)
-- 🌱 Member of IACA (International Association of Crime Analysts)
-- 🌱 Member of WILEAN (Wisconsin International Law Enforcement Analyst Network)
-
----
 
 
 
