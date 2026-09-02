@@ -10,11 +10,20 @@
 
 ## 🚀 About Me
 
-Laura  — a crime analyst with an M.S. in Criminal Justice Data Analytics from Marquette University, currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
+Hi, I'm Laura  — a crime analyst with an M.S. in Criminal Justice Data Analytics from Marquette University, currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
 
-I build interactive dashboards and spatial/temporal analyses that turn raw crime and victimization data into something investigators, prosecutors, and policymakers can actually act on.
+* Transforming raw crime data into something investigators, prosecutors, and policymakers can actually act on.
+* Developing striking dashboards with Power BI, Tableau & R
+* Data analysis and reporting using Excel & Google Sheets
+* Conducting spatial/temporal analyses using ArcGIS
 
-My work spans child victimization trends, prosecution outcomes, and crime mapping — using Power BI, Tableau, ArcGIS, and R to tell the story behind the numbers.
+---
+## 📁 Pinned Projects
+
+- **Milwaukee Police Department Crime Dashboard** — Tableau dashboard analyzing crime data in Milwaukee (2020-2025)
+- **WIBRS Child Victimization Data Dashboard** — Interactive Power BI dashboard analyzing statewide child victimization data (2018–2023)
+- **Child Sex Abuse Charging & Conviction Rates** — Tableau analysis of prosecution data (2019–2022)
+- **Child Abuse & Exploitation During Covid-19** — ArcGIS spatial/temporal hotspot analysis
 
 ---
 
@@ -63,10 +72,5 @@ My work spans child victimization trends, prosecution outcomes, and crime mappin
 
 ---
 
-## 📁 Pinned Projects
 
-- **Milwaukee Police Department Crime Dashboard** — Tableau dashboard analyzing crime data in Milwaukee (2020-2025)
-- **WIBRS Child Victimization Data Dashboard** — Interactive Power BI dashboard analyzing statewide child victimization data (2018–2023)
-- **Child Sex Abuse Charging & Conviction Rates** — Tableau analysis of prosecution data (2019–2022)
-- **Child Abuse & Exploitation During Covid-19** — ArcGIS spatial/temporal hotspot analysis
 
