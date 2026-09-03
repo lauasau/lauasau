@@ -8,7 +8,7 @@ Welcome!🤓, I'm Laura🩷
 ---
 
 ##  About Me
-I am a crime analyst with an M.S. in Criminal Justice Data Analytics from Marquette University, currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
+I am currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office. I love to work with data and create striking dashboards that impress my audiences!
 
 * Transforming raw crime data into something investigators, prosecutors, and policymakers can actually act on.
 * Developing striking dashboards with Power BI, Tableau & R
