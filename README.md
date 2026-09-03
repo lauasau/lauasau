@@ -1,8 +1,4 @@
 # :speech_balloon: Introducing myself 
-<p align="center">
-  <img src="clouds.jpg" width="55%" alt="header" />
-</p>
-
 Welcome!🤓, I'm Laura🩷
 
 ---
