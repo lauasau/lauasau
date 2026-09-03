@@ -29,17 +29,17 @@ Hi, I'm Laura  — a crime analyst with an M.S. in Criminal Justice Data Analyti
 ---
 ## 📁 Projects
 
-- **Milwaukee Police Department Crime Dashboard** 
-- **WIBRS Child Victimization Data Dashboard** 
-- **Child Sex Abuse Charging & Conviction Rates** 
-- **Child Abuse & Exploitation During Covid-19** 
+- Milwaukee Police Department Crime Dashboard** 
+- WIBRS Child Victimization Data Dashboard** 
+- Child Sex Abuse Charging & Conviction Rates** 
+- Child Abuse & Exploitation During Covid-19** 
 
 ---
 
 ## 🤝 Connect
 
 <p align="center">
-  <a href="REPLACE_WITH_YOUR_LINKEDIN_URL"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
+  <a href="https://www.linkedin.com/in/laura-s-538806236"><img src="https://skillicons.dev/icons?i=linkedin" /></a>
   <a href="lauraasau@outlook.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
   <a href="https://github.com/lauasau"><img src="https://skillicons.dev/icons?i=github" /></a>
 </p>
