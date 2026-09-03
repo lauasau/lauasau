@@ -1,6 +1,6 @@
 # :speech_balloon: Introducing myself 
 <p align="center">
-  <img src="clouds.jpg" width="75%" alt="header" />
+  <img src="clouds.jpg" width="55%" alt="header" />
 </p>
 
 <h1 align="center">Welcome!🤓, I'm Laura🩷</h1>
@@ -19,7 +19,7 @@ Hi, I'm Laura  — a crime analyst with an M.S. in Criminal Justice Data Analyti
 * Conducting spatial/temporal analyses using ArcGIS
 
 ---
-## 📌 Currently
+## :thought_balloon: Currently
 
 - 🔍 WITSEC Crime Analyst @ Milwaukee County District Attorney's Office
 - 📊 Building interactive dashboards on crime and victimization data
