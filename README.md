@@ -1,5 +1,6 @@
+# :speech_balloon: Introducing myself 
 <p align="center">
-  <img src="clouds.jpg" width="100%" alt="header" />
+  <img src="clouds.jpg" width="75%" alt="header" />
 </p>
 
 <h1 align="center">Welcome!🤓, I'm Laura🩷</h1>
