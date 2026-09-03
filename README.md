@@ -3,15 +3,12 @@
   <img src="clouds.jpg" width="55%" alt="header" />
 </p>
 
-<h1 align="center">Welcome!🤓, I'm Laura🩷</h1>
-<h3 align="center">Crime Analyst</h3>
-<p align="center"><i>Turning data into evidence that holds up</i></p>
+Welcome!🤓, I'm Laura🩷
 
 ---
 
-## 🚀 About Me
-
-Hi, I'm Laura  — a crime analyst with an M.S. in Criminal Justice Data Analytics from Marquette University, currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
+##  About Me
+I am a crime analyst with an M.S. in Criminal Justice Data Analytics from Marquette University, currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
 
 * Transforming raw crime data into something investigators, prosecutors, and policymakers can actually act on.
 * Developing striking dashboards with Power BI, Tableau & R
