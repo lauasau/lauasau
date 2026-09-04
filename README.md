@@ -3,7 +3,7 @@
 
 Welcome to my Github! I'm Laura 🤓 🩷
 
-- B.S Mathematics & Programming \
+- B.S Mathematics & Programming
 - M.S Criminal Justice Data Analytics
 
 ##  About Me
@@ -14,7 +14,8 @@ I am currently working as a WITSEC Crime Analyst in the Domestic Violence Unit a
 * Data analysis and reporting using Excel & Google Sheets
 * Conducting spatial/temporal analyses using ArcGIS
 
-Fun fact about me, aside from math and coding, I love art! Going into undergrad, I wanted to major in art, but soon realized my passion for math. I ultimately made the decision to pursue mathematics, but was torn that I had to part from the arts.\Going into my masters, I realized that I loved creating dashboards because even though it is was about storytelling the data, it was also about aesthetics and designing - art!
+Fun fact about me, aside from math and coding, I love art! Going into undergrad, I wanted to major in art, but soon realized my passion for math. I ultimately made the decision to pursue mathematics, but was torn that I had to part from the arts.
+Going into my masters, I realized that I loved creating dashboards because even though it is was about storytelling the data, it was also about aesthetics and designing - art!
 
 As I create dashboards, not only do I want to convey the data effectively, but also in a visually striking manner that stakeholders will appreciate and admire.
 
