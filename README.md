@@ -22,10 +22,10 @@ I am currently working as a WITSEC Crime Analyst in the Domestic Violence Unit a
 ---
 ## 📁 Projects
 
-- Milwaukee Police Department Crime Dashboard** 
-- WIBRS Child Victimization Data Dashboard** 
-- Child Sex Abuse Charging & Conviction Rates** 
-- Child Abuse & Exploitation During Covid-19** 
+- Milwaukee Police Department Crime Dashboard 
+- WIBRS Child Victimization Data Dashboard 
+- Child Sex Abuse Charging & Conviction Rates 
+- Child Abuse & Exploitation During Covid-19 
 
 ---
 
