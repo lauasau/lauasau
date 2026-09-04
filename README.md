@@ -1,5 +1,5 @@
 # :speech_balloon: Introducing myself 
-Welcome!🤓, I'm Laura🩷
+Welcome to my Github! I'm Laura 🤓 🩷
 
 <img width="800" height="234" alt="image" src="https://github.com/user-attachments/assets/2503ec2e-968f-4f9d-8387-0ae14d9f9321" />
 
