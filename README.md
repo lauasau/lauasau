@@ -2,6 +2,7 @@
 <img width="800" height="234" alt="image" src="https://github.com/user-attachments/assets/2503ec2e-968f-4f9d-8387-0ae14d9f9321" />
 
 Welcome to my Github! I'm Laura 🤓 🩷
+
 B.S Mathematics & Programming
 M.S Criminal Justice Data Analytics
 
@@ -17,7 +18,6 @@ Fun fact about me, aside from math and coding, I love art! Going into undergrad,
 
 As I create dashboards, not only do I want to convey the data effectively, but also in a visually striking manner that stakeholders will appreciate and admire.
 
----
 ## :thought_balloon: Currently
 
 - 🔍 WITSEC Crime Analyst @ Milwaukee County District Attorney's Office
@@ -25,15 +25,12 @@ As I create dashboards, not only do I want to convey the data effectively, but a
 - 🌱 Member of IACA (International Association of Crime Analysts)
 - 🌱 Member of WILEAN (Wisconsin International Law Enforcement Analyst Network)
 
----
 ## 📁 Projects
 
 - Milwaukee Police Department Crime Dashboard 
 - WIBRS Child Victimization Data Dashboard 
 - Child Sex Abuse Charging & Conviction Rates 
 - Child Abuse & Exploitation During Covid-19 
-
----
 
 ## 🤝 Connect
 
@@ -42,8 +39,6 @@ As I create dashboards, not only do I want to convey the data effectively, but a
   <a href="lauraasau@outlook.com"><img src="https://skillicons.dev/icons?i=gmail" /></a>
   <a href="https://github.com/lauasau"><img src="https://skillicons.dev/icons?i=github" /></a>
 </p>
-
----
 
 ## 💻 Tech Stack
 
