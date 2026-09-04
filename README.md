@@ -3,7 +3,7 @@
 
 Welcome to my Github! I'm Laura 🤓 🩷
 
-B.S Mathematics & Programming
+B.S Mathematics & Programming \
 M.S Criminal Justice Data Analytics
 
 ##  About Me
