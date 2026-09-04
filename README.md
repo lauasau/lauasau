@@ -1,10 +1,6 @@
 # :speech_balloon: Introducing myself 
-Welcome to my Github! I'm Laura 🤓 🩷
-
 <img width="800" height="234" alt="image" src="https://github.com/user-attachments/assets/2503ec2e-968f-4f9d-8387-0ae14d9f9321" />
-
-
----
+Welcome to my Github! I'm Laura 🤓 🩷
 
 ##  About Me
 I am currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office. I love to work with data and create striking dashboards that impress my audiences!
