@@ -2,6 +2,8 @@
 <img width="800" height="234" alt="image" src="https://github.com/user-attachments/assets/2503ec2e-968f-4f9d-8387-0ae14d9f9321" />
 
 Welcome to my Github! I'm Laura 🤓 🩷
+B.S Mathematics & Programming
+M.S Criminal Justice Data Analytics
 
 ##  About Me
 I am currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office. I love to work with data and create striking dashboards that impress my audiences!
@@ -10,6 +12,8 @@ I am currently working as a WITSEC Crime Analyst in the Domestic Violence Unit a
 * Developing striking dashboards with Power BI, Tableau & R
 * Data analysis and reporting using Excel & Google Sheets
 * Conducting spatial/temporal analyses using ArcGIS
+
+Fun fact about me, aside from math and coding, I love art! Going into undergrad, I wanted to major in Art, but soon realized my passion for math. I ultimately made the decision to pursue mathematics, but was torn that I had to part from the Arts. Going into my masters, I realized that I loved creating dashboards because even though it is was about transforming and analyzing data, it was also about aesthetics and designing - art! As I create dashboards, not only do I want to convey the data effectively, but in a visually striking manner that stakeholders will appreciate and admire.
 
 ---
 ## :thought_balloon: Currently
