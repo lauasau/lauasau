@@ -3,18 +3,18 @@
 
 Welcome to my Github! I'm Laura 🤓 🩷
 
-B.S Mathematics & Programming \
-M.S Criminal Justice Data Analytics
+- B.S Mathematics & Programming \
+- M.S Criminal Justice Data Analytics
 
 ##  About Me
-I am currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office. I love to work with data and create striking dashboards that impress my audiences!
+I am currently working as a WITSEC Crime Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
 
 * Transforming raw crime data into something investigators, prosecutors, and policymakers can actually act on.
 * Developing striking dashboards with Power BI, Tableau & R
 * Data analysis and reporting using Excel & Google Sheets
 * Conducting spatial/temporal analyses using ArcGIS
 
-Fun fact about me, aside from math and coding, I love art! Going into undergrad, I wanted to major in art, but soon realized my passion for math. I ultimately made the decision to pursue mathematics, but was torn that I had to part from the arts. Going into my masters, I realized that I loved creating dashboards because even though it is was about storytelling the data, it was also about aesthetics and designing - art!
+Fun fact about me, aside from math and coding, I love art! Going into undergrad, I wanted to major in art, but soon realized my passion for math. I ultimately made the decision to pursue mathematics, but was torn that I had to part from the arts.\Going into my masters, I realized that I loved creating dashboards because even though it is was about storytelling the data, it was also about aesthetics and designing - art!
 
 As I create dashboards, not only do I want to convey the data effectively, but also in a visually striking manner that stakeholders will appreciate and admire.
 
@@ -22,11 +22,12 @@ As I create dashboards, not only do I want to convey the data effectively, but a
 
 - 🔍 WITSEC Crime Analyst @ Milwaukee County District Attorney's Office
 - 📊 Building interactive dashboards on crime and victimization data
-- 🌱 Member of IACA (International Association of Crime Analysts)
-- 🌱 Member of WILEAN (Wisconsin International Law Enforcement Analyst Network)
+- :computer: Member of IACA (International Association of Crime Analysts)
+- :cop: Member of WILEAN (Wisconsin International Law Enforcement Analyst Network)
 
-## 📁 Projects
+## :card_index_dividers: Projects
 
+Projects that I've worked on can be viewed [here.](https://github.com/lauasau/my-portfolio)
 - Milwaukee Police Department Crime Dashboard 
 - WIBRS Child Victimization Data Dashboard 
 - Child Sex Abuse Charging & Conviction Rates 
