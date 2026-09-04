@@ -1,7 +1,7 @@
 # :speech_balloon: Introducing myself 
 Welcome!🤓, I'm Laura🩷
 
-<img width="748" height="234" alt="image" src="https://github.com/user-attachments/assets/2503ec2e-968f-4f9d-8387-0ae14d9f9321" />
+<img width="800" height="234" alt="image" src="https://github.com/user-attachments/assets/2503ec2e-968f-4f9d-8387-0ae14d9f9321" />
 
 
 ---
