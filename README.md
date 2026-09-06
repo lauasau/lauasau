@@ -22,7 +22,7 @@ As I create dashboards, not only do I want to convey the data effectively, but a
 
 ## :thought_balloon: Currently
 
-- 🔍 WITSEC Crime Analyst @ Milwaukee County District Attorney's Office
+- 🔍 WITSEC Analyst @ Milwaukee County District Attorney's Office
 - 📊 Building interactive dashboards on crime and victimization data
 - :computer: Member of IACA (International Association of Crime Analysts)
 - :cop: Member of WILEAN (Wisconsin International Law Enforcement Analyst Network)
