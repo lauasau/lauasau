@@ -1,10 +1,10 @@
 # :speech_balloon: Introducing myself 
 <img width="800" height="234" alt="image" src="https://github.com/user-attachments/assets/2503ec2e-968f-4f9d-8387-0ae14d9f9321" />
 
-Welcome to my Github! I'm Laura 🤓 🩷
+Welcome to my Github! I'm Laura! 🤓:sparkling_heart:
 
-- B.S Mathematics & Programming :woman_technologist: 
-- M.S Criminal Justice Data Analytics :balance_scale: 
+- B.S Mathematics & Programming :abacus::woman_technologist: 
+- M.S Criminal Justice Data Analytics :balance_scale::bar_chart: 
 
 ##  :memo: About Me
 I am currently working as a WITSEC Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
