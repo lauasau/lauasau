@@ -3,10 +3,10 @@
 
 Welcome to my Github! I'm Laura 🤓 🩷
 
-- :woman_technologist: B.S Mathematics & Programming
-- :balance_scale: M.S Criminal Justice Data Analytics
+- B.S Mathematics & Programming :woman_technologist: 
+- M.S Criminal Justice Data Analytics :balance_scale: 
 
-##  :woman_technologist: About Me
+##  :memo: About Me
 I am currently working as a WITSEC Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
 
 * Transforming raw crime data into something investigators, prosecutors, and policymakers can actually act on.
