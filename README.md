@@ -1,7 +1,7 @@
 # :speech_balloon: Introducing myself 
 <img width="800" height="234" alt="image" src="https://github.com/user-attachments/assets/2503ec2e-968f-4f9d-8387-0ae14d9f9321" />
 
-Welcome to my Github! I'm Laura! 🤓:sparkling_heart:
+Welcome to my Github! I'm Laura! 🤓💖
 
 - B.S Mathematics & Programming :abacus::woman_technologist: 
 - M.S Criminal Justice Data Analytics :balance_scale::mag:
