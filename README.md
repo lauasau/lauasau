@@ -9,7 +9,7 @@ Welcome to my Github! I'm Laura! 🤓💖
 ##  :memo: About Me
 I am currently working as a WITSEC Analyst in the Domestic Violence Unit at the Milwaukee County District Attorney's Office.
 
-* :oncoming_police_car:Transforming raw crime data into something investigators, prosecutors, and policymakers can actually act on.
+* :police_car:Transforming raw crime data into something investigators, prosecutors, and policymakers can actually act on.
 * :bar_chart:Developing striking dashboards with Power BI, Tableau & R
 * :chart_with_upwards_trend:Data analysis and reporting using Excel & Google Sheets
 * :earth_americas:Conducting spatial/temporal analyses using ArcGIS
