@@ -16,7 +16,7 @@ I am currently working as a Crime Analyst for MPD.
 
 ## :thought_balloon: Currently
 
-- 🔍 WITSEC Analyst @ Milwaukee County District Attorney's Office
+- 🔍 Crime Analyst @ Milwaukee Police Department
 - 📊 Building interactive dashboards on crime and victimization data
 - :computer: Member of IACA (International Association of Crime Analysts)
 - :cop: Member of WILEAN (Wisconsin International Law Enforcement Analyst Network)
