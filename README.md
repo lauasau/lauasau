@@ -7,7 +7,7 @@ Welcome to my Github! I'm Laura! 🤓💖
 - M.S Criminal Justice Data Analytics :balance_scale::mag:
 
 ##  :memo: About Me
-I am currently working as a Crime Analyst for MPD.
+I am currently working as a Crime Analyst for MPD
 
 * :police_car: Transforming raw crime data into something investigators, prosecutors, and policymakers can actually act on.
 * :bar_chart: Developing striking dashboards with Power BI, Tableau & R
@@ -16,7 +16,7 @@ I am currently working as a Crime Analyst for MPD.
 
 ## :thought_balloon: Currently
 
-- 🔍 Crime Analyst @ Milwaukee Police Department
+- 🔍 Crime Analyst @ Milwaukee Police Department Fusion Division
 - 📊 Building interactive dashboards on crime and victimization data
 - :computer: Member of IACA (International Association of Crime Analysts)
 - :cop: Member of WILEAN (Wisconsin International Law Enforcement Analyst Network)
