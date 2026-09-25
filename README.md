@@ -7,7 +7,7 @@ Welcome to my Github! I'm Laura! 🤓💖
 - M.S Criminal Justice Data Analytics :balance_scale::mag:
 
 ##  :memo: About Me
-I am currently working as a Crime Analyst for MPD
+I am currently working as a Crime Analyst! 
 
 * :police_car: Transforming raw crime data into something investigators, prosecutors, and policymakers can actually act on.
 * :bar_chart: Developing striking dashboards with Power BI, Tableau & R
