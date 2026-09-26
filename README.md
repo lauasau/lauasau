@@ -1,13 +1,14 @@
 # :speech_balloon: Introducing myself 
 <img width="800" height="234" alt="image" src="https://github.com/user-attachments/assets/2503ec2e-968f-4f9d-8387-0ae14d9f9321" />
 
-Welcome to my Github! I'm Laura! 🤓💖
+Welcome to my GitHub! I'm Laura! 🤓💖
 
 - B.S Mathematics & Programming :abacus::woman_technologist: 
 - M.S Criminal Justice Data Analytics :balance_scale::mag:
 
 ##  :memo: About Me
-I am currently working as a Crime Analyst! 
+As a motivated and curious individual, I thrive on learning and tackling new challenges. 
+My areas of interest: Mathematics & Statistics, Programming, Data Analysis, Data Science, Criminology, & Physics.
 
 * :police_car: Transforming raw crime data into something investigators, prosecutors, and policymakers can actually act on.
 * :bar_chart: Developing striking dashboards with Power BI, Tableau & R
