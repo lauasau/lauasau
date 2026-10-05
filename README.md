@@ -9,7 +9,7 @@ Welcome to my GitHub! I'm Laura! 🤓💖
 ##  :memo: About Me
 As a motivated and curious individual, I thrive on learning and tackling new challenges. 
 
-My areas of interest: Mathematics & Statistics, Programming, Data Analysis, Data Science, Criminology, & Physics.
+My areas of interest: Mathematics & Statistics, Programming, Data Analysis & Data Science, Criminology, & Physics.
 
 * :police_car: Transforming raw crime data into something investigators, prosecutors, and policymakers can actually act on.
 * :bar_chart: Developing striking dashboards with Power BI, Tableau & R
