@@ -18,7 +18,7 @@ My areas of interest: Mathematics & Statistics, Programming, Data Analysis, Data
 
 ## :thought_balloon: Currently
 
-- 🔍 Crime Analyst @ Milwaukee Police Department Fusion Division
+- 🔍 Crime Analyst @ Milwaukee Police Department 
 - 📊 Building interactive dashboards on crime and victimization data
 - :computer: Member of IACA (International Association of Crime Analysts)
 - :cop: Member of WILEAN (Wisconsin International Law Enforcement Analyst Network)
