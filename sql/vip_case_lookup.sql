@@ -1,29 +1,38 @@
 USE INFORMRMSREPORTS;
 
 /*
-  Cases (with reported date and offense description) involving specific people.
+  Cases (with reported date and offense description) involving a list of people.
 
-  Changes from the original version:
-  - Filter people first (the selective part) in a small CTE, then pull
-    offenses/events only for those cases, instead of building the full
-    REPORT x OFFENSE x EVENT set for every case and joining it afterwards.
+  To search for more people, add one row per person to @People below
+  (LASTNAME, FIRSTNAME, DATEOFBIRTH as YYYYMMDD). Nothing else needs to change.
+
+  Notes:
+  - People are filtered first, then offenses/events are pulled only for their cases.
   - LEFT JOIN EVENT + "E.DATEREPORTED IS NOT NULL" is really an INNER JOIN; say so.
-  - Only the columns actually used are selected (CREATEDON, RACE_CODE, SEX_CODE,
-    INVOLVEMENTTYPE_CODE were carried through DISTINCT for nothing).
-  - LASTNAME = 'DOE' factored out of the OR so it can drive an index seek.
-  - Unambiguous ISO dates (YYYYMMDD) instead of '07/10/1998', which depends
-    on the session's language/DATEFORMAT setting.
+  - ISO dates (YYYYMMDD) are unambiguous regardless of the session's DATEFORMAT.
 */
+DECLARE @People TABLE (
+    LASTNAME    VARCHAR(100) NOT NULL,
+    FIRSTNAME   VARCHAR(100) NOT NULL,
+    DATEOFBIRTH DATE         NOT NULL,
+    PRIMARY KEY (LASTNAME, FIRSTNAME, DATEOFBIRTH)
+);
+
+INSERT INTO @People (LASTNAME, FIRSTNAME, DATEOFBIRTH) VALUES
+    ('DOE', 'JOHN', '19980710'),
+    ('DOE', 'JANE', '19990617');
+    -- ('SMITH', 'ALEX', '20010305'),
+
 WITH VIP AS (
     SELECT DISTINCT
         R.CASENUMBER,
         CONCAT(P.LASTNAME, ',', P.FIRSTNAME) AS FULLNAME,  -- no space after comma
         P.DATEOFBIRTH
-    FROM REPORTING.PERSON P
+    FROM @People L
+        INNER JOIN REPORTING.PERSON P ON P.LASTNAME    = L.LASTNAME
+                                     AND P.FIRSTNAME   = L.FIRSTNAME
+                                     AND P.DATEOFBIRTH = L.DATEOFBIRTH
         INNER JOIN REPORTING.REPORT R ON R.ID = P.RECORD_ID
-    WHERE P.LASTNAME = 'DOE'
-      AND (   (P.FIRSTNAME = 'JOHN' AND P.DATEOFBIRTH = '19980710')
-           OR (P.FIRSTNAME = 'JANE' AND P.DATEOFBIRTH = '19990617'))
 )
 SELECT DISTINCT
     R.CASENUMBER,
@@ -35,7 +44,8 @@ FROM VIP
     INNER JOIN REPORTING.REPORT  R ON R.CASENUMBER = VIP.CASENUMBER
     INNER JOIN REPORTING.OFFENSE O ON O.RECORD_ID  = R.ID
     INNER JOIN REPORTING.EVENT   E ON E.RECORD_ID  = R.ID
-WHERE E.DATEREPORTED IS NOT NULL;
+WHERE E.DATEREPORTED IS NOT NULL
+ORDER BY VIP.FULLNAME, E.DATEREPORTED;
 
 /*
   Suggested indexes (if they don't already exist):
