@@ -20,9 +20,9 @@ DECLARE @People TABLE (
 
 INSERT INTO @People (LASTNAME, FIRSTNAME, DATEOFBIRTH) VALUES
     ('DOE', 'JOHN', '19980710'),
-    ('DOE', 'JANE', '19990617');   -- last row ends with ; not ,
+    ('DOE', 'JANE', '19990617')    -- no comma after the last row
 
-WITH VIP AS (
+;WITH VIP AS (  -- leading ; ends the INSERT so the CTE always parses
     SELECT DISTINCT
         R.CASENUMBER,
         CONCAT(P.LASTNAME, ',', P.FIRSTNAME) AS FULLNAME,  -- no space after comma
