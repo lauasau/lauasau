@@ -20,8 +20,7 @@ DECLARE @People TABLE (
 
 INSERT INTO @People (LASTNAME, FIRSTNAME, DATEOFBIRTH) VALUES
     ('DOE', 'JOHN', '19980710'),
-    ('DOE', 'JANE', '19990617');
-    -- ('SMITH', 'ALEX', '20010305'),
+    ('DOE', 'JANE', '19990617');   -- last row ends with ; not ,
 
 WITH VIP AS (
     SELECT DISTINCT
