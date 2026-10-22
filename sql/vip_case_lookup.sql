@@ -34,6 +34,16 @@ INSERT INTO @People (LASTNAME, FIRSTNAME, DATEOFBIRTH) VALUES
                                      AND P.FIRSTNAME   = L.FIRSTNAME
                                      AND P.DATEOFBIRTH = L.DATEOFBIRTH
         INNER JOIN REPORTING.REPORT R ON R.ID = P.RECORD_ID
+    WHERE P.INVOLVEMENTTYPE_DESCRIPTION IN (
+        'Arrest',
+        'Arrestee',
+        'DNA Databank Hit',
+        'Latent Print Comparison',
+        'Person of Interest (For Records Management Only)',
+        'S',
+        'Suspect',
+        'Suspected Offender'
+    )
 )
 SELECT DISTINCT
     R.CASENUMBER,
