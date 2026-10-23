@@ -44,8 +44,6 @@ INSERT INTO @People (LASTNAME, FIRSTNAME, DATEOFBIRTH) VALUES
         'Suspect',
         'Suspected Offender'
     )
-       OR P.INVOLVEMENTTYPE_DESCRIPTION IS NULL                -- blank (NULL)
-       OR LTRIM(RTRIM(P.INVOLVEMENTTYPE_DESCRIPTION)) = ''     -- blank (empty/spaces)
 )
 SELECT DISTINCT
     R.CASENUMBER,
