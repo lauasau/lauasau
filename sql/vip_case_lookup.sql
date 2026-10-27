@@ -38,7 +38,7 @@ INSERT INTO @People (LASTNAME, FIRSTNAME, DATEOFBIRTH) VALUES
         'Arrest',
         'Arrestee',
         'DNA Databank Hit',
-        'Latent Print Comparison',
+        'Latent Print Identification',
         'Person of Interest (For Records Management Only)',
         'S',
         'Suspect',
@@ -58,6 +58,18 @@ FROM VIP
     INNER JOIN REPORTING.OFFENSE O ON O.RECORD_ID  = R.ID
     INNER JOIN REPORTING.EVENT   E ON E.RECORD_ID  = R.ID
 WHERE E.DATEREPORTED >= DATEADD(YEAR, -5, CAST(GETDATE() AS DATE))  -- past 5 years (also excludes NULLs)
+  -- Hide a person's Suspect rows on a case where they are also an Arrestee
+  AND NOT (
+        VIP.INVOLVEMENTTYPE_CODE = 'Suspect'
+        AND EXISTS (
+            SELECT 1
+            FROM VIP A
+            WHERE A.CASENUMBER  = VIP.CASENUMBER
+              AND A.FULLNAME    = VIP.FULLNAME
+              AND A.DATEOFBIRTH = VIP.DATEOFBIRTH
+              AND A.INVOLVEMENTTYPE_CODE = 'Arrestee'
+        )
+  )
 ORDER BY VIP.FULLNAME, E.DATEREPORTED;
 
 /*
