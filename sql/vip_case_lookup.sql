@@ -43,7 +43,8 @@ FROM @People L
                                  AND P.FIRSTNAME   = L.FIRSTNAME
                                  AND P.DATEOFBIRTH = L.DATEOFBIRTH
                                  AND (L.MIDDLENAME IS NULL OR P.MIDDLENAME = L.MIDDLENAME)
-    INNER JOIN REPORTING.REPORT R ON R.ID = P.RECORD_ID;   -- all involvement types
+    INNER JOIN REPORTING.REPORT R ON R.ID = P.RECORD_ID
+WHERE P.INVOLVEMENTTYPE_CODE IS NOT NULL;   -- all involvement types except blank
 
 -- 1. Cases
 SELECT DISTINCT
