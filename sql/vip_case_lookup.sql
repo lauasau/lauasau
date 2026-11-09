@@ -43,14 +43,7 @@ FROM @People L
                                  AND P.FIRSTNAME   = L.FIRSTNAME
                                  AND P.DATEOFBIRTH = L.DATEOFBIRTH
                                  AND (L.MIDDLENAME IS NULL OR P.MIDDLENAME = L.MIDDLENAME)
-    INNER JOIN REPORTING.REPORT R ON R.ID = P.RECORD_ID
-WHERE P.INVOLVEMENTTYPE_CODE IN (
-    'Arrestee',
-    'DNA Databank Hit',
-    'Latent Print Identification',
-    'Person of Interest (For Records Management Only)',
-    'Suspect'
-);
+    INNER JOIN REPORTING.REPORT R ON R.ID = P.RECORD_ID;   -- all involvement types
 
 -- 1. Cases
 SELECT DISTINCT
