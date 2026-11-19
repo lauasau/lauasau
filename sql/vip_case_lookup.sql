@@ -7,7 +7,8 @@ USE INFORMRMSREPORTS;
   MIDDLENAME may be NULL: then any middle name (or none) matches.
 
   Returns three result grids:
-    1. Cases from the past 5 years (Suspect rows hidden when the same person
+    1. Cases from the past 5 years (Suspect, DNA Databank Hit, Latent Print
+       Identification and Person of Interest rows hidden when the same person
        is an Arrestee on the case)
     2. Addresses linked to those person records
     3. Vehicles linked to those person records
@@ -60,9 +61,15 @@ FROM #VIP VIP
     INNER JOIN REPORTING.OFFENSE O ON O.RECORD_ID  = R.ID
     INNER JOIN REPORTING.EVENT   E ON E.RECORD_ID  = R.ID
 WHERE E.DATEREPORTED >= DATEADD(YEAR, -5, CAST(GETDATE() AS DATE))  -- past 5 years (also excludes NULLs)
-  -- Hide a person's Suspect rows on a case where they are also an Arrestee
+  -- Hide a person's Suspect/DNA/print/POI rows on a case where they are also
+  -- an Arrestee (keep only the Arrestee row). Never arrested -> rows are kept.
   AND NOT (
-        VIP.INVOLVEMENTTYPE_CODE = 'Suspect'
+        VIP.INVOLVEMENTTYPE_CODE IN (
+            'Suspect',
+            'DNA Databank Hit',
+            'Latent Print Identification',
+            'Person of Interest (For Records Management Only)'
+        )
         AND EXISTS (
             SELECT 1
             FROM #VIP A
