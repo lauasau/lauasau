@@ -80,20 +80,23 @@ WHERE E.DATEREPORTED >= DATEADD(YEAR, -5, CAST(GETDATE() AS DATE))  -- past 5 ye
         )
   )
   -- Hide the UCR-coded copy of an offense ("... 23C 23C SHOPLIFTING") when the
-  -- plain version of the same offense is on the case. Only hidden when the extra
-  -- text is a UCR code (2 digits + digit/letter, twice), so "THEFT" never hides
-  -- "THEFT OF MOTOR VEHICLE". UCR-only offenses are kept.
+  -- plain version of the same offense is on the case: the row's description is
+  -- another offense's description followed by this row's own UCR code. So
+  -- "THEFT" never hides "THEFT OF MOTOR VEHICLE", and UCR-only offenses are kept.
   AND NOT EXISTS (
         SELECT 1
         FROM REPORTING.REPORT  R2
             INNER JOIN REPORTING.OFFENSE O2 ON O2.RECORD_ID = R2.ID
         WHERE R2.CASENUMBER = R.CASENUMBER
+          AND LTRIM(RTRIM(O.VIOLATIONCODEREFERENCE_UCRCODE)) <> ''
           -- starts with the other offense's full description...
           AND LEFT(O.VIOLATIONCODEREFERENCE_DESCRIPTION, LEN(O2.VIOLATIONCODEREFERENCE_DESCRIPTION))
               = O2.VIOLATIONCODEREFERENCE_DESCRIPTION
-          -- ...and what follows is " 23C 23C ..."
-          AND SUBSTRING(O.VIOLATIONCODEREFERENCE_DESCRIPTION, LEN(O2.VIOLATIONCODEREFERENCE_DESCRIPTION) + 1, 8000)
-              LIKE ' [0-9][0-9][0-9A-Z] [0-9][0-9][0-9A-Z]%'
+          -- ...followed by a space and this row's UCR code
+          AND SUBSTRING(O.VIOLATIONCODEREFERENCE_DESCRIPTION,
+                        LEN(O2.VIOLATIONCODEREFERENCE_DESCRIPTION) + 1,
+                        LEN(LTRIM(RTRIM(O.VIOLATIONCODEREFERENCE_UCRCODE))) + 1)
+              = ' ' + LTRIM(RTRIM(O.VIOLATIONCODEREFERENCE_UCRCODE))
   )
 ORDER BY VIP.FULLNAME, E.DATEREPORTED;
 
