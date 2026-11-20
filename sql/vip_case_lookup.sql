@@ -3,8 +3,7 @@ USE INFORMRMSREPORTS;
 /*
   Cases, addresses and vehicles for a list of people.
 
-  Add one row per person to @People (LASTNAME, FIRSTNAME, MIDDLENAME, DATEOFBIRTH).
-  MIDDLENAME may be NULL: then any middle name (or none) matches.
+  Add one row per person to @People (LASTNAME, FIRSTNAME, DATEOFBIRTH).
 
   Returns cases from the past 5 years:
     - Suspect, DNA Databank Hit, Latent Print Identification and Person of
@@ -18,14 +17,13 @@ USE INFORMRMSREPORTS;
 DECLARE @People TABLE (
     LASTNAME    VARCHAR(100) NOT NULL,
     FIRSTNAME   VARCHAR(100) NOT NULL,
-    MIDDLENAME  VARCHAR(100) NULL,       -- NULL = no middle name / match any
     DATEOFBIRTH DATE         NOT NULL,
-    UNIQUE (LASTNAME, FIRSTNAME, MIDDLENAME, DATEOFBIRTH)
+    PRIMARY KEY (LASTNAME, FIRSTNAME, DATEOFBIRTH)
 );
 
-INSERT INTO @People (LASTNAME, FIRSTNAME, MIDDLENAME, DATEOFBIRTH) VALUES
-    ('SMITH',   'ADAM', NULL,    '1990-01-01'),
-    ('ANDREWS', 'ADAM', 'JAMES', '1990-01-01');   -- last row ends with ;
+INSERT INTO @People (LASTNAME, FIRSTNAME, DATEOFBIRTH) VALUES
+    ('SMITH',   'ADAM', '1990-01-01'),
+    ('ANDREWS', 'ADAM', '1990-01-01');   -- last row ends with ;
 
 -- Matching person records, saved once and reused below.
 IF OBJECT_ID('tempdb..#VIP') IS NOT NULL DROP TABLE #VIP;
@@ -34,7 +32,6 @@ SELECT DISTINCT
     P.ID AS PERSON_ID,
     R.CASENUMBER,
     CONCAT(P.LASTNAME, ',', P.FIRSTNAME) AS FULLNAME,    -- no space after comma
-    P.MIDDLENAME,
     P.DATEOFBIRTH,
     P.INVOLVEMENTTYPE_CODE
 INTO #VIP
@@ -42,7 +39,6 @@ FROM @People L
     INNER JOIN REPORTING.PERSON P ON P.LASTNAME    = L.LASTNAME
                                  AND P.FIRSTNAME   = L.FIRSTNAME
                                  AND P.DATEOFBIRTH = L.DATEOFBIRTH
-                                 AND (L.MIDDLENAME IS NULL OR P.MIDDLENAME = L.MIDDLENAME)
     INNER JOIN REPORTING.REPORT R ON R.ID = P.RECORD_ID
 WHERE P.INVOLVEMENTTYPE_CODE IS NOT NULL;   -- all involvement types except blank
 
@@ -59,7 +55,6 @@ SELECT DISTINCT
         ELSE O.VIOLATIONCODEREFERENCE_DESCRIPTION
     END AS VIOLATION_DESCRIPTION,
     VIP.FULLNAME,
-    VIP.MIDDLENAME,
     VIP.DATEOFBIRTH,
     VIP.INVOLVEMENTTYPE_CODE
 FROM #VIP VIP
