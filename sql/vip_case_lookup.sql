@@ -1,7 +1,7 @@
 USE INFORMRMSREPORTS;
 
 /*
-  Cases, addresses and vehicles for a list of people.
+  Cases for a list of people.
 
   Add one row per person to @People (LASTNAME, FIRSTNAME, DATEOFBIRTH).
 
@@ -10,9 +10,6 @@ USE INFORMRMSREPORTS;
       Interest rows are hidden when the same person is an Arrestee on the case
     - UCR-coded copies of an offense ("... 23C 23C SHOPLIFTING") are hidden
     - The statute number is removed from the offense description
-
-  The address and vehicle sections near the bottom are switched off (commented
-  out) until the real table names are known; see the notes there.
 */
 DECLARE @People TABLE (
     LASTNAME    VARCHAR(100) NOT NULL,
@@ -29,7 +26,6 @@ INSERT INTO @People (LASTNAME, FIRSTNAME, DATEOFBIRTH) VALUES
 IF OBJECT_ID('tempdb..#VIP') IS NOT NULL DROP TABLE #VIP;
 
 SELECT DISTINCT
-    P.ID AS PERSON_ID,
     R.CASENUMBER,
     CONCAT(P.LASTNAME, ',', P.FIRSTNAME) AS FULLNAME,    -- no space after comma
     P.DATEOFBIRTH,
@@ -42,7 +38,7 @@ FROM @People L
     INNER JOIN REPORTING.REPORT R ON R.ID = P.RECORD_ID
 WHERE P.INVOLVEMENTTYPE_CODE IS NOT NULL;   -- all involvement types except blank
 
--- 1. Cases
+-- Cases
 SELECT DISTINCT
     R.CASENUMBER,
     E.DATEREPORTED,
@@ -101,46 +97,9 @@ WHERE E.DATEREPORTED >= DATEADD(YEAR, -5, CAST(GETDATE() AS DATE))  -- past 5 ye
   )
 ORDER BY VIP.FULLNAME, E.DATEREPORTED;
 
-/*  ---- Switched off: REPORTING.ADDRESS and REPORTING.VEHICLE are guessed names
-    ---- and do not exist. Find the real names with the query at the bottom of
-    ---- this file, fix the two JOIN lines, then remove this comment block.
-
--- 2. Addresses linked to these people
-SELECT DISTINCT
-    VIP.FULLNAME,
-    VIP.DATEOFBIRTH,
-    VIP.CASENUMBER,
-    A.*                                                  -- trim to the columns you want
-FROM #VIP VIP
-    INNER JOIN REPORTING.ADDRESS A ON A.PERSON_ID = VIP.PERSON_ID   -- CHECK
-ORDER BY VIP.FULLNAME, VIP.CASENUMBER;
-
--- 3. Vehicles linked to these people
-SELECT DISTINCT
-    VIP.FULLNAME,
-    VIP.DATEOFBIRTH,
-    VIP.CASENUMBER,
-    V.*                                                  -- trim to the columns you want
-FROM #VIP VIP
-    INNER JOIN REPORTING.VEHICLE V ON V.PERSON_ID = VIP.PERSON_ID   -- CHECK
-ORDER BY VIP.FULLNAME, VIP.CASENUMBER;
-*/
-
 DROP TABLE #VIP;
 
 /*
-  Find the real address/vehicle table names for the CHECK lines:
-
-  SELECT TABLE_NAME, COLUMN_NAME
-  FROM INFORMATION_SCHEMA.COLUMNS
-  WHERE TABLE_SCHEMA = 'REPORTING'
-    AND (   TABLE_NAME LIKE '%ADDR%'
-         OR TABLE_NAME LIKE '%LOCATION%'
-         OR TABLE_NAME LIKE '%VEHICLE%'
-         OR TABLE_NAME LIKE '%PROPERTY%'
-         OR (TABLE_NAME = 'PERSON' AND COLUMN_NAME LIKE '%ADDR%'))
-  ORDER BY TABLE_NAME, ORDINAL_POSITION;
-
   Suggested indexes (if they don't already exist):
 
   CREATE INDEX IX_PERSON_NAME_DOB ON REPORTING.PERSON (LASTNAME, FIRSTNAME, DATEOFBIRTH) INCLUDE (RECORD_ID);
