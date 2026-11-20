@@ -79,6 +79,16 @@ WHERE E.DATEREPORTED >= DATEADD(YEAR, -5, CAST(GETDATE() AS DATE))  -- past 5 ye
               AND A.INVOLVEMENTTYPE_CODE = 'Arrestee'
         )
   )
+  -- Hide the UCR-coded copy of an offense ("... 23C 23C SHOPLIFTING") when the
+  -- plain version of the same offense is on the case. UCR-only offenses are kept.
+  AND NOT EXISTS (
+        SELECT 1
+        FROM REPORTING.REPORT  R2
+            INNER JOIN REPORTING.OFFENSE O2 ON O2.RECORD_ID = R2.ID
+        WHERE R2.CASENUMBER = R.CASENUMBER
+          AND O.VIOLATIONCODEREFERENCE_DESCRIPTION
+              LIKE O2.VIOLATIONCODEREFERENCE_DESCRIPTION + ' %'
+  )
 ORDER BY VIP.FULLNAME, E.DATEREPORTED;
 
 -- 2. Addresses linked to these people
